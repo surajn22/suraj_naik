@@ -40,7 +40,7 @@ btn.on('click', function(e) {
 
   $(function(){
 	$(".typed").typed({
-		strings: ["Master student	 BigData and AI."," Software Developer."," Web Designer."],
+		strings: ["Master student	 BigData and AI"," Software Developer"," Web Designer"],
 		// Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
 		stringsElement: null,
 		// typing speed
