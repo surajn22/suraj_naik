@@ -41,7 +41,15 @@
   box-sizing: border-box; }
  /*typed css start*/
  
-
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  }
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
 .typed_wrap {
 	display: block;
 	width: 100%;
@@ -2069,16 +2077,16 @@ fieldset:disabled a.btn {
   color: #fff;
   padding: 7%;
   font-weight:bold;
-  background-color: #17a2b8;
-  border-color: #17a2b8; }
+  background-color: #242527;
+   }
   .btn-info:hover {
     color: #fff;
-    background-color: #138496;
-    border-color: #117a8b; }
+    background-color: #606265;
+     }
   .btn-info:focus, .btn-info.focus {
     color: #fff;
-    background-color: #138496;
-    border-color: #117a8b;
+    background-color: #6082b3;
+   
     box-shadow: 0 0 0 0.2rem rgba(58, 176, 195, 0.5); }
   .btn-info.disabled, .btn-info:disabled {
     color: #fff;
@@ -4915,7 +4923,7 @@ a.close.disabled {
   vertical-align: text-top !important; }
 
 .bg-primary {
-  background-color: #1f2d41 !important; }
+  background-color: #242527 !important; }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
@@ -4923,7 +4931,7 @@ button.bg-primary:focus {
   background-color: #0f151e !important; }
 
 .bg-secondary {
-  background-color: #04767a !important; }
+  background-color: #242527 !important; }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
 button.bg-secondary:hover,
@@ -7249,7 +7257,7 @@ a.text-primary:hover, a.text-primary:focus {
   color: #06090d !important; }
 
 .text-secondary {
-  color: #04767a !important; }
+  color: #242527 !important; }
 
 a.text-secondary:hover, a.text-secondary:focus {
   color: #022e30 !important; }
@@ -7404,7 +7412,7 @@ h3 {
     width: 100%;
     max-width: 7rem;
     height: 0.25rem;
-    background-color: #04767a;
+    background-color: black;
     border-radius: 1rem;
     border-color: #04767a !important; }
     .divider-custom .divider-custom-line:first-child {
@@ -7412,7 +7420,7 @@ h3 {
     .divider-custom .divider-custom-line:last-child {
       margin-left: 1rem; }
   .divider-custom .divider-custom-icon {
-    color: #04767a !important;
+    color: black !important;
     font-size: 2rem; }
   .divider-custom.divider-light .divider-custom-line {
     background-color: #fff; }
@@ -7455,11 +7463,11 @@ h3 {
     #mainNav .navbar-nav li.nav-item a.nav-link {
       color: #fff; }
       #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-        color: #1f2d41; }
+        color: #606265; }
       #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
         color: #fff; }
       #mainNav .navbar-nav li.nav-item a.nav-link.active {
-        color: #1f2d41; }
+        color: #606265; }
   #mainNav .navbar-toggler {
     font-size: 80%;
     padding: 0.8rem; }
@@ -7476,10 +7484,10 @@ h3 {
       margin-top: 0; }
     #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
       color: #fff;
-      background: #1f2d41; }
+      background: #606265; }
       #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
         color: #fff;
-        background: #1f2d41; }
+        background: #606265; }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem; }
@@ -7488,7 +7496,7 @@ h3 {
 
 .masthead {
   padding-top: calc(6rem + 74px);
-  padding-bottom: 6rem; }
+   }/*padding-bottom: 6rem;*/
   .masthead .masthead-heading {
     font-size: 2.75rem;
     line-height: 2.75rem; }
@@ -7501,7 +7509,7 @@ h3 {
 @media (min-width: 992px) {
   .masthead {
     padding-top: calc(6rem + 104px);
-    padding-bottom: 6rem; }
+     }/*padding-bottom: 6rem;*/
     .masthead .masthead-heading {
       font-size: 4rem;
       line-height: 3.5rem; }
@@ -7583,7 +7591,7 @@ h3 {
   opacity: 1; }
 
 .floating-label-form-group-with-focus label {
-  color: #1f2d41; }
+  color: #606265; }
 
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #e9ecef; }
@@ -7591,11 +7599,11 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #04767a;
+  background-color: #242527;
   color: #fff; }
 
 .copyright {
-  background-color: #024649; }
+  background-color: #091c1d; }
 
 #brandImage {
   height: 2rem; }
