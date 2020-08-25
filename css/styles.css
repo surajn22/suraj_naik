@@ -608,7 +608,8 @@ mark,
 
 .img-fluid {
   max-width: 100%;
-  height: auto; }
+  height: auto;
+  min-width: -webkit-fill-available; }
 
 .img-thumbnail {
   padding: 0.25rem;
