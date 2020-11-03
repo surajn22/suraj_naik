@@ -2005,7 +2005,8 @@ fieldset:disabled a.btn {
 .btn-primary {
   color: #fff;
   background-color: #1f2d41;
-  border-color: #1f2d41; }
+  border-color: #1f2d41;
+  font-family: sans-serif; }
   .btn-primary:hover {
     color: #fff;
     background-color: #131b27;
