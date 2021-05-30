@@ -150,7 +150,7 @@ particlesJS("particles-js", {
 
   $(function(){
 	$(".typed").typed({
-		strings: ["Master student	 BigData and AI"," Software Developer"," Web Designer"],
+		strings: ["Master student	 BigData and AI"," Software Developer"," Full Stack Developer"],
 		// Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
 		stringsElement: null,
 		// typing speed
